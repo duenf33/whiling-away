@@ -234,4 +234,4 @@ function fibonacci(num){
     num--;
     }
 }
-fibonacci(8)
+// fibonacci(8)
