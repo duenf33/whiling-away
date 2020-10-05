@@ -222,16 +222,16 @@ function fizzBuzz(number){
 
 // 16. Fibonacci! Write a function that takes in a number and prints each Fibonacci number (starting with 0 and 1) from 1 to that number, inclusive. Call it with 21, and you should see the Fibonacci sequence up to and including 21 (1, 1, 2, 3, 5, 8, 13, 21).
 
-function fibonacci(num){
-    let a = 1;
-    let b = 0;
+function fibonacci(input){
+    let num = 1;
+    let num2 = 0;
     let fibo;
-    while (num >= 0){
-    console.log(b);
-    fibo = a;
-    a = a + b;
-    b = fibo;
-    num--;
+    while (input >= 0){
+        console.log(num2);
+        fibo = num;
+        num = num + num2;
+        num2 = fibo;
+        input--;
     }
 }
-// fibonacci(8)
+fibonacci(8)
